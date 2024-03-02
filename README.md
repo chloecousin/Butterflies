@@ -22,10 +22,12 @@ A trait dataset for Lepidoptera (=order of winged insects that includes butterfl
 Shirey, V., Larsen, E., Doherty, A., Kim, C.A., Al-Sulaiman, F.T., Hinolan, J.D., Itliong, M.G.A., Naive, M.A.K., Ku, M., Belitz, M., Jeschke, G., Barve, V., Lamas, G., Kawahara, A.Y., Guralnick, R., Pierce, N.E., Lohman, D.J., and Ries, L. 2022. For further information, see:
 - https://github.com/RiesLabGU/LepTraits/tree/main
 - https://www.nature.com/articles/s41597-022-01473-5#Sec7
+
 Licence: http://creativecommons.org/licenses/by/4.0/ 
 
 3-__Red List of Butterflies in the UK__
 
 List of butterflies from least vulnerable to regionally extinct species in the UK
+
 From: https://butterfly-conservation.org/red-list-of-butterflies-in-great-britain 
 
