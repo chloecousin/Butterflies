@@ -12,9 +12,12 @@
 
 '_One of the longest running insect monitoring schemes in the world. The scheme began in 1976 and now records data on over 2,000 sites per year; incorporating butterfly transects, the Wider Countryside Butterfly Survey (WCBS), and timed-counts. The resulting UKBMS dataset is one of the most important resources for understanding changes in insect populations_'. For further information, see: https://ukbms.org/
 
-The dataset in this project includes data from 2004 to 2020. 
+The dataset in this project includes data from 2001 to 2020 (around 6M sightings) 
 
-GBIF.org (21 February 2024) GBIF Occurrence Download  https://doi.org/10.15468/dl.35wj66
+https://registry.nbnatlas.org/public/showDataResource/dr1206 
+
+Licence: Open Government Licence 3.0, https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ 
+
 
 ### 2- __LepTraits v1.0__
 
