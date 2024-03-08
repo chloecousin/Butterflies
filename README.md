@@ -9,13 +9,11 @@ The World Economic Forum states that Biodiversity is _'critically important'_ fo
 4. Provides livelihood
 5. Protects us
 
-The butterfly population has been widely studied across the world over the last decades. The butterflies are indeed thought to be one of the best indicators of a healthy environment. As they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to :
+The butterfly population has been widely studied across the world over the last decades. The butterflies are indeed thought to be one of the best indicators of a healthy environment. As they have short life cycles, they have quick responses to environmental changes. 
+
+The purpose of this analysis is to :
 - understand how the butterflies population varies and
-- predict its evolution over the next years as external factors in their environment will evolve as well, for better or for worse
-
-
-## Initial Findings
-
+- predict its evolution over the next years as external factors in their environment will evolve as well
 
 
 ## Datasets
@@ -88,7 +86,7 @@ Dictionnary:
 - `Quelifying criteria`: further notes on category
 - `Previous (2010) Red List category`: red list category in 2010
 
-### 4- __London weather historic data_
+### 4- __London weather historic data__
 
 Monthly weather information from Heathrow (London Airport)
 
