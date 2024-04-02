@@ -9,12 +9,13 @@ The World Economic Forum states that Biodiversity is _'critically important'_ fo
 4. Provides livelihood
 5. Protects us
 
-The butterfly population has been widely studied across the world over the last decades. The butterflies are indeed thought to be one of the best indicators of a healthy environment. As they have short life cycles, they have quick responses to environmental changes. 
-
-The purpose of this analysis is to :
+The butterfly population has been widely studied across the world over the last decades. The butterflies are indeed thought to be one of the best indicators of a healthy environment. As they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to :
 - understand how the butterflies population varies and
-- predict its evolution over the next years as external factors in their environment will evolve as well
+- predict its evolution over the next years as external factors in the context of climate change
 
+To do so, we are conducting here a Time series analysis and trying different models:
+- First using univariate models (SARIMA, Prophet)
+- Then, using multivariate models (VAR, Prophet) and using external factors to optimize our model accuracy
 
 ## Datasets
 ### 1- __United Kingdom Butterfly Monitoring Scheme (UKBMS)__
@@ -101,4 +102,20 @@ Dictionnary:
 - `rain`: Total rainfall in mm
 - `sun`: Total sunshine duration in hours
 
+
+### 4- __London air quality historic data__
+
+Hourly air quality information from Marylebone road (center London) - station with the most data points
+
+Source: https://www.londonair.org.uk/LondonAir/Default.aspx
+
+Dictionnary:
+- `code`: Station code
+- `date`: Date
+- `O3`: Ground Level Ozone
+- `NO2`: Nitrogen Dioxide
+- `NOXasNO2`: Nitrogen Dioxide
+- `SO2`: Sulphur dioxide
+- `PM10`: Particles
+- `site`: Site name
 
