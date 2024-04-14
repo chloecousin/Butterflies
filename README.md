@@ -15,7 +15,21 @@ The butterfly population has been widely studied across the world over the last 
 
 To do so, we are conducting here a Time series analysis and trying different models:
 - First using univariate models (SARIMA, Prophet)
-- Then, using multivariate models (VAR, Prophet) and using external factors to optimize our model accuracy
+- Then, using multivariate models (VAR, Prophet) and using external factors to optimize the model accuracy
+
+## Key Findings
+In the last notebook, I try to predict the butterfly population evolution, with the following steps and findings:
+
+1. __Data Preprocessing__:
+   - *Indicator for the butterfly population evolution*: the dataset have sightings information and we can deduce the number of surveys when the butterflies were counted. I chose butterfly per survey as the indicator of the butterfly population
+   - *Location*: focus on one location, London
+   - *Trend*: focus on trend only (not the seasonality / residuals), to make sure I am not capturing for example high temperatures during the summer as predictive of high number of butterflies
+   - *Lags*: focus on external factors lagged value - for example, if the temperatures were really high one summer, are the butterflies the year after suffering from this?
+3. __Model iterations__:
+    - *Univariate models*: failed to pick up variations in the data even if the Prophet univariate showed somewhat good MAPE results
+    - *Multivariate models*: with several combinations of lags and variables selection. The best model retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun. Except for the last two, all of them have a negative impact on the butterfly population.
+4.  __Best model evaluation__: the model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values
+5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. However, a good news from the analysis is that the general trend over the past years is upward for the butterflies. Even if temperatures and air quality impact their numbers, their trend remains upward, much likely due to conservation efforts or other context which we do not have the data for here. More simulations can be done on the Streamlit app.
 
 ## Datasets
 ### 1- __United Kingdom Butterfly Monitoring Scheme (UKBMS)__
@@ -116,6 +130,6 @@ Dictionnary:
 - `NO2`: Nitrogen Dioxide
 - `NOXasNO2`: Nitrogen Dioxide
 - `SO2`: Sulphur dioxide
+- `CO`: Carbon Monoxide
 - `PM10`: Particles
 - `site`: Site name
-
