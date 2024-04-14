@@ -12,6 +12,8 @@ To do so, we are conducting here a Time series analysis and trying different mod
 - Then, with multivariate models (VAR, Prophet) and using external factors to optimize the model accuracy
 
 ## Key Findings
+The model can be tested at: https://butterflies.streamlit.app/ 
+
 In the last notebook, I try to predict the butterfly population evolution, with the following steps and findings:
 
 1. __Data Preprocessing__:
