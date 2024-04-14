@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 ### PAGE CONFIG
 st.set_page_config(page_title='The Butterfly Effect', page_icon='🦋', layout="wide")
 
+st.write('A multivariate Time Series model aimed to predict the Butterfly Population Evolution amid climate change (a focus around London, UK) - using Facebook Prophet model')
 st.title("The Butterfly Effect")
 st.divider()
 
