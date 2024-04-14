@@ -64,6 +64,7 @@ st.sidebar.markdown('**Data Sources**')
 st.sidebar.caption('Butterfly sightings data: [UKBMS](https://registry.nbnatlas.org/public/show/dr1206)')
 st.sidebar.caption('Weather data: [Met Office](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data)')
 st.sidebar.caption('Air Quality data: [London Air](https://www.londonair.org.uk/LondonAir/Default.aspx)')
+st.sidebar.caption('Developed by [Chloe Cousin](https://github.com/chloecousin)')
 
 #######################################################################################################################################
 ### MODEL
