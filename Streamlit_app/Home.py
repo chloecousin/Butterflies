@@ -23,10 +23,10 @@ def load_data(path, num_rows):
     return df
 
 # Load observed data
-df_o = load_data("observed_df.csv", 500)
+df_o = load_data("Streamlit_app/observed_df.csv", 500)
 
 # Load forecast data
-df_f = load_data("forecast_df.csv", 500)
+df_f = load_data("Streamlit_app/forecast_df.csv", 500)
 
 
 #######################################################################################################################################
