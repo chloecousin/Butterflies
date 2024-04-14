@@ -1,1 +1,2 @@
 prophet
+plotly
