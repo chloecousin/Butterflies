@@ -1,21 +1,15 @@
 # The Butterfly Effect
 
 ## Project Overview
-The World Economic Forum states that Biodiversity is _'critically important'_ for 5 reasons, as it:
-
-1. Ensures health and food security
-2. Helps fight disease
-3. Benefits business
-4. Provides livelihood
-5. Protects us
+The World Economic Forum states that Biodiversity is _'critically important'_ for 5 reasons, as it: ensures health and food security, helps fight disease, benefits business, provides livelihood, protects us
 
 The butterfly population has been widely studied across the world over the last decades. The butterflies are indeed thought to be one of the best indicators of a healthy environment. As they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to :
 - understand how the butterflies population varies and
-- predict its evolution over the next years as external factors in the context of climate change
+- predict its evolution over the next years in the context of climate change
 
 To do so, we are conducting here a Time series analysis and trying different models:
-- First using univariate models (SARIMA, Prophet)
-- Then, using multivariate models (VAR, Prophet) and using external factors to optimize the model accuracy
+- First with univariate models (SARIMA, Prophet)
+- Then, with multivariate models (VAR, Prophet) and using external factors to optimize the model accuracy
 
 ## Key Findings
 In the last notebook, I try to predict the butterfly population evolution, with the following steps and findings:
@@ -29,7 +23,7 @@ In the last notebook, I try to predict the butterfly population evolution, with 
     - *Univariate models*: failed to pick up variations in the data even if the Prophet univariate showed somewhat good MAPE results
     - *Multivariate models*: with several combinations of lags and variables selection. The best model retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun. Except for the last two, all of them have a negative impact on the butterfly population.
 4.  __Best model evaluation__: the model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values
-5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. However, a good news from the analysis is that the general trend over the past years is upward for the butterflies. Even if temperatures and air quality impact their numbers, their trend remains upward, much likely due to conservation efforts or other context which we do not have the data for here. More simulations can be done on the Streamlit app.
+5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. However, a good news from the analysis is that the general trend over the past years is upward for the butterflies. Even if temperatures and air quality impact their numbers, their trend remains upward, much likely due to conservation efforts or other context which we do not have the data for here. More simulations can be done on the Streamlit app: https://butterflies.streamlit.app/ 
 
 ## Datasets
 ### 1- __United Kingdom Butterfly Monitoring Scheme (UKBMS)__
