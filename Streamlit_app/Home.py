@@ -125,7 +125,7 @@ fig.add_trace(go.Scatter(x=preds2.loc[:nobs,'ds'], y=preds2.loc[:nobs,'y'], mode
 fig.add_trace(go.Scatter(x=preds2.loc[nobs:,'ds'], y=preds2.loc[nobs:,'y'], mode='lines', line=dict(color='#EBACA0'), name='Test', opacity=0.3))
 fig.add_trace(go.Scatter(x=preds2.loc[:, 'ds'],y=preds2.loc[:, 'yhat'], mode='lines', line_dash='dot', line=dict(color='#419D78'), name='Predictions'))
 fig.add_trace(go.Scatter(x=forecasts2.loc['2020-06-01':, 'ds'], y=forecasts2.loc['2020-06-01':, 'yhat'], mode='lines', 
-                         line_dash='dash', line=dict(color='#0087B8'), name='Forecasts'))
+                         line_dash='dash', line=dict(color='#C42348'), name='Forecasts'))
 
 
 # fig.add_trace(go.Scatter(x=df['ds'], y=df['y'], mode='lines', line=dict(color='#233333'), name='Train', opacity=0.3))
