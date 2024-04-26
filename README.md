@@ -7,7 +7,9 @@ The butterfly population has been widely studied across the world over the last 
 
 To do so, I am conducting here a Time series analysis with different approaches:
 - __Preprocessing steps__ (varies with each model, but can include): scaling, stationarity, Grange causality test, Cointegration test...
-- __Models__: univariates (butterfly values only with SARIMA, Prophet) and multivariates (using external factors to optimize the model accuracy with VAR, Prophet)
+- __Models__: 
+   - univariates (butterfly values only): SARIMA, Prophet
+   - multivariates (using external factors to optimize the model accuracy): VAR, Prophet
 
 ## Key Findings
 The model can be tested at: https://butterflies.streamlit.app/ 
@@ -15,7 +17,7 @@ The model can be tested at: https://butterflies.streamlit.app/
 In the last notebook, I try to predict the butterfly population evolution, with the following steps and findings:
 
 1. __EDA__:
-   - 
+   - ---
 2. __Data Preprocessing__:
    - *Indicator for the butterfly population evolution*: the dataset have sightings information and we can deduce the number of surveys when the butterflies were counted. I chose butterfly per survey as the indicator of the butterfly population
    - *Location*: focus on one location, London
