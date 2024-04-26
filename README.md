@@ -12,7 +12,7 @@ To do so, I am conducting here a Time series analysis with different approaches:
    - multivariates (using external factors to optimize the model accuracy): VAR, Prophet
 
 ## Key Findings
-The model can be tested at: https://butterflies.streamlit.app/ 
+The model can be tested on the [Streamlit App](https://butterflies.streamlit.app/)
 
 In the last notebook, I try to predict the butterfly population evolution, with the following steps and findings:
 
@@ -32,22 +32,22 @@ In the last notebook, I try to predict the butterfly population evolution, with 
 ## Datasets
 ### 1- __United Kingdom Butterfly Monitoring Scheme (UKBMS)__
 
-'_One of the longest running insect monitoring schemes in the world. The scheme began in 1976 and now records data on over 2,000 sites per year; incorporating butterfly transects, the Wider Countryside Butterfly Survey (WCBS), and timed-counts. The resulting UKBMS dataset is one of the most important resources for understanding changes in insect populations_'. For further information, see: https://ukbms.org/
+'_One of the longest running insect monitoring schemes in the world. The scheme began in 1976 and now records data on over 2,000 sites per year; incorporating butterfly transects, the Wider Countryside Butterfly Survey (WCBS), and timed-counts. The resulting UKBMS dataset is one of the most important resources for understanding changes in insect populations_'. For further information, see the [UKBMS website](https://ukbms.org/)
 
 The dataset in this project includes data from 2001 to 2020 (around 6M sightings) 
 
 Source: https://registry.nbnatlas.org/public/showDataResource/dr1206 
 
-Licence: Open Government Licence 3.0, https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ 
+Licence: [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 ### 2- __LepTraits v1.0__
 
 A trait dataset for Lepidoptera (=order of winged insects that includes butterflies and moths). Originally created by:
-Shirey, V., Larsen, E., Doherty, A., Kim, C.A., Al-Sulaiman, F.T., Hinolan, J.D., Itliong, M.G.A., Naive, M.A.K., Ku, M., Belitz, M., Jeschke, G., Barve, V., Lamas, G., Kawahara, A.Y., Guralnick, R., Pierce, N.E., Lohman, D.J., and Ries, L. 2022. For further information, see https://www.nature.com/articles/s41597-022-01473-5#Sec7
+Shirey, V., Larsen, E., Doherty, A., Kim, C.A., Al-Sulaiman, F.T., Hinolan, J.D., Itliong, M.G.A., Naive, M.A.K., Ku, M., Belitz, M., Jeschke, G., Barve, V., Lamas, G., Kawahara, A.Y., Guralnick, R., Pierce, N.E., Lohman, D.J., and Ries, L. 2022. For further information, see this [Nature article](https://www.nature.com/articles/s41597-022-01473-5#Sec7)
 
 Source: https://github.com/RiesLabGU/LepTraits/tree/main
 
-Licence: http://creativecommons.org/licenses/by/4.0/ 
+Licence: [Creative Commons CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 
 ### 3- __Red List of Butterflies in the UK__
@@ -69,3 +69,4 @@ Source: https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-sta
 Hourly air quality information from Marylebone road (center London) - station with the most data points in London over 2001-2020
 
 Source: https://www.londonair.org.uk/LondonAir/Default.aspx
+Licence: [For informational and educational purposes](https://www.londonair.org.uk/london/asp/copyright.asp)
