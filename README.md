@@ -1,11 +1,9 @@
 # The Butterfly Effect
 
 ## Project Overview
-The World Economic Forum states that Biodiversity is _'critically important'_ for 5 reasons, as it: ensures health and food security, helps fight disease, benefits business, provides livelihood, protects us
+The World Economic Forum states that Biodiversity is _'critically important'_ for 5 reasons, as it: ensures health and food security, helps fight disease, benefits business, provides livelihood, protects us.
 
-The butterfly population has been widely studied across the world over the last decades. The butterflies are indeed thought to be one of the best indicators of a healthy environment. As they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to predict the  evolution of the butterfly population in the context of climate change and see if and how external factors affect them.
-
-To do so, I am conducting here a Time series analysis with different approaches:
+The butterfly population has been widely studied and are thought to be one of the best indicators of a healthy environment: as they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to predict the evolution of the butterfly population in the context of climate change and see - if and how - external factors affect them. To do so, I am conducting a Time series analysis with different approaches:
 - __Preprocessing steps__ (varies with each model, but can include): scaling, stationarity, Grange causality test, Cointegration test...
 - __Models__: 
    - univariates (butterfly values only): SARIMA, Prophet
@@ -24,7 +22,8 @@ The model can be tested on the [Streamlit App](https://butterflies.streamlit.app
    - *Lags*: focus on external factors lagged value - for example, if the temperatures were really high one summer, are the butterflies the year after suffering from this?
 3. __Model iterations__:
     - *Univariate models*: failed to pick up variations in the data even if the Prophet univariate showed somewhat good MAPE results
-    - *Multivariate models*: with several combinations of lags and variables selection. The best model retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun. Except for the last two, all of them have a negative impact on the butterfly population.
+    - *Multivariate models*: with several combinations of lags and variables selection.
+    The best model is a Prophet multivariate model which retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun as the most predictive. Except for the last two, all of them have a negative impact on the butterfly population.
 4.  __Best model evaluation__: the model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values
 5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. However, a good news from the analysis is that the general trend over the past years is upward for the butterflies. Even if temperatures and air quality impact their numbers, their trend remains upward, much likely due to conservation efforts or other context which we do not have the data for here. More simulations can be done on the [Streamlit App](https://butterflies.streamlit.app/).
 
