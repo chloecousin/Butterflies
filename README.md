@@ -14,12 +14,11 @@ To do so, I am conducting here a Time series analysis with different approaches:
 ## Key Findings
 The model can be tested on the [Streamlit App](https://butterflies.streamlit.app/)
 
-In the last notebook, I try to predict the butterfly population evolution, with the following steps and findings:
-
-1. __EDA__:
-   - ---
+1. __EDA__(most important finding):
+   - Most sightings located in England
+   - The sightings have a trend upward, more and more sightings have been recorded over the years, BUT this is not an indicator of how the butterfly population is faring. 
 2. __Data Preprocessing__:
-   - *Indicator for the butterfly population evolution*: the dataset have sightings information and we can deduce the number of surveys when the butterflies were counted. I chose butterfly per survey as the indicator of the butterfly population
+   - *Indicator for the butterfly population evolution*: To get such indicator I found a way to know how many surveys had been conducted each month (unique pairs of sighting date and sighting number Ordnance Survey grid reference, aka date and location) and created a new variable: number of butterfly seen per survey (average for each month)
    - *Location*: focus on one location, London
    - *Trend*: focus on trend only (not the seasonality / residuals), to make sure I am not capturing for example high temperatures during the summer as predictive of high number of butterflies
    - *Lags*: focus on external factors lagged value - for example, if the temperatures were really high one summer, are the butterflies the year after suffering from this?
