@@ -19,9 +19,8 @@ The model can be tested on the [Streamlit App](https://butterflies.streamlit.app
    - *Trend*: focus on trend only (not the seasonality / residuals), to make sure I am not capturing for example high temperatures during the summer as predictive of high number of butterflies
    - *Lags*: focus on external factors lagged value - for example, if the temperatures were really high one summer, are the butterflies the year after suffering from this?
 3. __Model iterations__:
-    - *Univariate models*: failed to pick up variations in the data even if the Prophet univariate showed somewhat good MAPE results
-    - *Multivariate models*: with several combinations of lags and variables selection.
-    The best model is a Prophet multivariate model which retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun as the most predictive. Except for the last two, all of them have a negative impact on the butterfly population.
+    - *Univariate models*: failed to pick up variations in the data 
+    - *Multivariate models*: one of them showed excellent train MAPE score and very good test MAPE score, and was able to pick up the data variations: a Prophet multivariate model. It retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun as the most predictive. Except for the last two, all of them have a negative impact on the butterfly population.
 4.  __Best model evaluation__: the model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values
 5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. However, a good news from the analysis is that the general trend over the past years is upward for the butterflies. Even if temperatures and air quality impact their numbers, their trend remains upward, much likely due to conservation efforts or other context which we do not have the data for here. More simulations can be done on the [Streamlit App](https://butterflies.streamlit.app/).
 
