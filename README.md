@@ -22,7 +22,7 @@ The model can be tested on the [Streamlit App](https://butterflies.streamlit.app
     - *Univariate models*: failed to pick up variations in the data 
     - *Multivariate models*: one of them showed excellent train MAPE score and very good test MAPE score, and was able to pick up the data variations: a Prophet multivariate model. It retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun as the most predictive. Except for the last two, all of them have a negative impact on the butterfly population.
 4.  __Best model evaluation__: the model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values
-5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. However, a good news from the analysis is that the general trend over the past years is upward for the butterflies. Even if temperatures and air quality impact their numbers, their trend remains upward, much likely due to conservation efforts or other context which we do not have the data for here. More simulations can be done on the [Streamlit App](https://butterflies.streamlit.app/).
+5.  __Forecasts__: after several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly population will suffer from poor external conditions. More simulations can be done on the [Streamlit App](https://butterflies.streamlit.app/).
 
 ## Datasets
 ### 1- __United Kingdom Butterfly Monitoring Scheme (UKBMS)__
