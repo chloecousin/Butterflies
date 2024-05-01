@@ -122,6 +122,5 @@ st.markdown("The model is quite good to pick up the general trend and variations
 st.subheader("5.  __Forecasts__:")
 st.markdown("""
             After several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly 
-            population will suffer from poor external conditions. Simulations of external factors variations can be done on the app:
+            population will suffer from poor external conditions. Simulations of external factors variations can be done on the 🦋 Model App.
             """)
-st.page_link("https://butterflies.streamlit.app/Model_App", label="Model App", icon="🦋")
