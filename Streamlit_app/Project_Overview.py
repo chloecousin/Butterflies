@@ -56,6 +56,7 @@ with col2:
             BUT this is not an indicator of how the butterfly population is faring: this could mean that there are more surveys conducted to count 
             the butterflies or that there are indeed more butterflies, or both!
             """)
+st.markdown('')
 
 st.subheader("2. __Data Preprocessing__ (most important steps)")
 
@@ -95,6 +96,7 @@ with col6:
     st.markdown("""
                 Focus on external factors lagged value - for example, if the temperatures were really high one summer, are the butterflies the year after suffering from this?
                 """)
+st.markdown('')
 
 
 st.subheader("3. __Model iterations__")
@@ -115,6 +117,7 @@ with col8:
 
 st.subheader("4.  __Best model evaluation__")
 st.markdown("The model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values.")
+st.markdown('')
 
 st.subheader("5.  __Forecasts__")
 st.markdown("""
