@@ -3,7 +3,7 @@
 ## Project Overview
 The World Economic Forum states that Biodiversity is _'critically important'_ for 5 reasons, as it: ensures health and food security, helps fight disease, benefits business, provides livelihood, protects us.
 
-The butterfly population has been widely studied and are thought to be one of the best indicators of a healthy environment: as they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to predict the evolution of the butterfly population in the context of climate change and see - if and how - external factors affect them. To do so, I am conducting a Time series analysis with different approaches:
+The butterfly population has been widely studied and is thought to be one of the best indicators of a healthy environment: as they have short life cycles, they have quick responses to environmental changes. The purpose of this analysis is to predict the evolution of the butterfly population in the context of climate change and see - if and how - external factors affect them. To do so, I am conducting a Time series analysis with different approaches:
 - __Preprocessing steps__ (varies with each model, but can include): scaling, stationarity, Grange causality test, Cointegration test...
 - __Models__: univariates (SARIMA, Prophet) and multivariates (VAR, Prophet)
 
