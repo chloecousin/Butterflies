@@ -56,8 +56,8 @@ st.sidebar.caption('''
                    ''')
 st.sidebar.write('---')
 st.sidebar.caption('''
-                   More info about the [Time Series Analysis](https://github.com/chloecousin/Butterflies) | Developed by 
-                   [Chloe Cousin](https://www.linkedin.com/in/chloe-m-cousin/)
+                   Developed by [Chloe Cousin](https://www.linkedin.com/in/chloe-m-cousin/) | 
+                   More info about the analysis on my [GitHub](https://github.com/chloecousin/Butterflies)
                    ''')
 
 #######################################################################################################################################
