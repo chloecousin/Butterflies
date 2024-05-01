@@ -124,4 +124,4 @@ st.markdown("""
             After several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly 
             population will suffer from poor external conditions. Simulations of external factors variations can be done on the app:
             """)
-st.page_link("Streamlit_app/pages/1_🦋_Model_App.py", label="Model App", icon="🦋")
+st.page_link("https://butterflies.streamlit.app/Model_App", label="Model App", icon="🦋")
