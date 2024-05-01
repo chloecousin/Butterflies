@@ -39,7 +39,7 @@ st.markdown("""
             - __Preprocessing steps__ (varies with each model, but can include): scaling, stationarity, Grange causality test, Cointegration test...
             - __Models__: univariates (SARIMA, Prophet) and multivariates (VAR, Prophet)
 
-            Here is how I approached the dataset to find the model presented in the Home page:
+            Here is how I approached the dataset to find the model presented in the 🦋 Model App page:
             """)
 
 ## Key Findings
@@ -97,7 +97,7 @@ with col6:
                 """)
 
 
-st.subheader("3. __Model iterations__:")
+st.subheader("3. __Model iterations__")
 col7, col8 = st.columns(2, gap='large')
 with col7:
     st.markdown("*Univariate models - Best one below:*")
@@ -114,9 +114,9 @@ with col8:
                 """)
 
 st.subheader("4.  __Best model evaluation__")
-st.markdown("The model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values")
+st.markdown("The model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values.")
 
-st.subheader("5.  __Forecasts__:")
+st.subheader("5.  __Forecasts__")
 st.markdown("""
             After several simulations of external factors variations (aka if the temperatures increase by 10%...) we can see that the butterfly 
             population will suffer from poor external conditions. Simulations of external factors variations can be done on the 🦋 Model App.
