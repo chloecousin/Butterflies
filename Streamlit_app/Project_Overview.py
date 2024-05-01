@@ -114,6 +114,7 @@ with col8:
                 a Prophet multivariate model. It retained the following external variables: temperatures / rain / O3 / SO2 / air frost / sun as the most 
                 predictive. Except for the last two, all of them have a negative impact on the butterfly population.
                 """)
+st.markdown('')
 
 st.subheader("4.  __Best model evaluation__")
 st.markdown("The model is quite good to pick up the general trend and variations but will likely fail to predict the exact next values.")
