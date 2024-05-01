@@ -59,13 +59,13 @@ st.sidebar.write('')
 st.sidebar.write('')
 st.sidebar.write('')
 st.sidebar.write('')
-st.sidebar.write('')
 st.sidebar.markdown('**Data Sources**')
 st.sidebar.caption('Butterfly sightings data: [UKBMS](https://registry.nbnatlas.org/public/show/dr1206)')
 st.sidebar.caption('Weather data: [Met Office](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data)')
 st.sidebar.caption('Air Quality data: [London Air](https://www.londonair.org.uk/LondonAir/Default.aspx)')
 st.sidebar.write('______')
-st.sidebar.caption('Developed by [Chloe Cousin](https://github.com/chloecousin)')
+st.sidebar.caption('More info about the [Time Series Analysis](https://github.com/chloecousin)')
+st.sidebar.caption('Developed by [Chloe Cousin](https://www.linkedin.com/in/chloe-m-cousin/)')
 
 #######################################################################################################################################
 ### MODEL
