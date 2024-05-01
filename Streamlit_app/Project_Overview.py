@@ -38,11 +38,10 @@ st.markdown("""
             To do so, I am conducting a Time series analysis with different approaches:
             - __Preprocessing steps__ (varies with each model, but can include): scaling, stationarity, Grange causality test, Cointegration test...
             - __Models__: univariates (SARIMA, Prophet) and multivariates (VAR, Prophet)
-            
-            The data used in this project comes from the [UKBMS](https://ukbms.org/index.php/), one of the longest running insect monitoring schemes in 
-            the world. I explore 6M butterfly sightings recorded in the UK over the past 20 years.
 
-            Here is how I approached the dataset to find the model presented in the 🦋 Model App page:
+            The data used in this project comes from the [UKBMS](https://ukbms.org/index.php/), one of the longest running insect monitoring schemes in 
+            the world. I explore 6M butterfly sightings recorded in the UK over the past 20 years. Here is how I approached the dataset to find the 
+            model presented in the 🦋 Model App page:
             """)
 
 ## Key Findings
